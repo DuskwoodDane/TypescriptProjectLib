@@ -1,0 +1,22 @@
+{
+  "name": "ts-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "output/app.js",
+  "scripts": {
+    "dev": "tsc",
+    "start": "ts-node-dev --respawn --transpile-only app.ts"
+  },
+  "author": "linkFly",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.5.0",
+    "ts-node-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.37",
+    "express": "^4.16.2",
+    "reflect-metadata": "^0.1.10",
+    "typescript": "^2.5.3"
+  }
+}
